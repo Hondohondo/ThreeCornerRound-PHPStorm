@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,300;0,400;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
 /*Nephritis Color: #27ae60;*/
 
 /*---------------------------------------*/
@@ -57,11 +57,13 @@ body {
 h1 {
     margin-bottom: 2rem;
     color: #fff;
-    font-size: 4.8rem;
+    /*font-size: 4.8rem;*/
+    font-size: 3.6rem;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 4px;
+    font-family: 'Cardo', serif;
 }
 
 /*---------------------------------------*/
@@ -120,7 +122,8 @@ h1 {
 /*---------------------------------------*/
 header {
     /*background-image: url(img/hero1.jpg);*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero1.jpg);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero1.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-2.jpg);
     background-size: cover;
     background-position: center;
     /*height: 100vh;*/
@@ -264,6 +267,7 @@ section {
 }
 h2 {
     margin-bottom: 2rem;
+    font-family: 'Cardo', serif;
 }
 
 .illustration-1 {
@@ -303,16 +307,18 @@ h2 {
 .paragraph {
     line-height: 1.6;
 }
-h2 {
-    margin-bottom: 2rem;
-}
+
+/*h2 {*/
+/*    margin-bottom: 2rem;*/
+/*}*/
 
 .illustration-1 {
     width: 150%;
 }
 
 .picture-block-reverse {
-    margin-top: 40vh;
+    /*margin-top: 40vh;*/
+    margin-top: 10vh;
     /*margin-right: 0;*/
     margin-left: -25rem;
     z-index: 10;
