@@ -126,8 +126,8 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-2.jpg);
     background-size: cover;
     background-position: center;
-    /*height: 100vh;*/
-    height: 120vh;
+    height: 100vh;
+    /*height: 120vh;*/
 }
 
 .hero-text-box {
@@ -219,8 +219,6 @@ header {
     color: inherit;
 }
 
-
-
 section {
     padding: 8rem 0;
 }
@@ -229,7 +227,7 @@ section {
 /*---------------------------------------*/
 .section-container {
     display: flex;
-    margin-top: -20vh;
+    /*margin-top: -20vh;*/
 }
 
 .trc-video {
@@ -252,7 +250,8 @@ section {
     z-index: 5;
     /*flex: 0 0 60%;*/
     /*height: 60rem;*/
-    height: 55rem;
+    /*height: 55rem;*/
+    height: 50rem;
 }
 
 .text {
@@ -275,7 +274,8 @@ h2 {
 }
 
 .picture-block {
-    margin-top: 40vh;
+    /*margin-top: 40vh;*/
+    margin-top: 10vh;
     margin-right: -25rem;
     z-index: 10;
 }/*---------------------------------------*/
@@ -299,8 +299,13 @@ h2 {
     height: 50rem;
 }
 
+.text-block-reverse-3 {
+    height: 50rem;
+}
+
 .text-reverse {
-    width: 55%;
+    /*width: 55%;*/
+    width: 60%;
     /*text-align: right;*/
     margin-left: 0;
 }
@@ -343,7 +348,20 @@ section.section-two {
     font-size: 60rem;
     line-height: 0.8;
 
-    background: url("../img/hero2.jpg");
+    /*background: url("../img/hero2.jpg");*/
+    background: url("../img/trc-image-4.jpg");
+    background-size: cover;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading-block h3.science {
+    font-size: 60rem;
+    line-height: 0.8;
+
+    /*background: url("../img/hero2.jpg");*/
+    background: url("../img/science.jpg");
     background-size: cover;
 
     -webkit-background-clip: text;
@@ -405,6 +423,13 @@ section.section-two {
     margin-top: 2rem;
     text-align: center;
     color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+.copy-2 {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 1.4rem !important;
 }
 
 .gallery {
