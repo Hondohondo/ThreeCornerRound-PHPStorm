@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/main.css">
 
     <title>Three Corner Round</title>
 </head>
@@ -14,11 +15,11 @@
         <div class="row nav-container">
             <img src="resources/img/tcr-logo.png" alt="Three Corner Round Logo" class="logo">
             <ul class="main-nav">
-                <li><a href="#">Home</a></li>
+                <li><a href="">Home</a></li>
 <!--                <li><a href="#">Apply Now</a></li>-->
-                <li><a href="#" class="btn btn-ghost grey-hover">Apply Now</a></li>
-                <li><a href="#">Donate</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="" class="btn btn-ghost grey-hover">Apply Now</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
     </nav>
@@ -156,6 +157,93 @@
     </div>
 </section>
 
+<section class="section-contact" id="contact">
+    <div class="row">
+        <div class="contact-container">
+            <div class="contact">
+                <div class="contact__form">
+                    <form action="https://formspree.io/xjvagzol" method="POST" class="form">
+                        <div class="row mb-md">
+                            <div class="sublevel-overview">
+                                <h2 class="sublevel-overview__heading">
+                                    Contact us now
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <input name="name" type="text" class="form__input" placeholder="Full name" id="name" required>
+                            <label for="name" class="form__label">Full name</label>
+                        </div>
+
+                        <div class="form__group">
+                            <input name="email" type="email" class="form__input" placeholder="Email address" id="email" required>
+                            <label for="email" class="form__label">Email address</label>
+                        </div>
+
+                        <div class="form__group">
+                            <textarea name="message" id="message" class="form__input form__input-message" cols="30" rows="7" placeholder="Message" required></textarea>
+                            <!--                        <input type="text" class="form__input form__input-message" placeholder="Message" id="message" required>-->
+                            <label for="message" class="form__label">Your Message</label>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="snippets-contact">
+                <figure class="snippet">
+                    <h4 class="snippet__heading snippet__heading-1">Three Corner Round Pack Outfit, Inc.</h4>
+                    <p class="snippet__text">
+                        14774 Morgan Trail, Novelty, OH 44072
+                    </p>
+                    <ul class="list">
+                        <li class="list__item list__item-phone">
+                            <a href="tel:2169781846">(216) 978-1846</a>
+                        </li>
+                        <li class="list__item list__item-email"><a href="mailto:info@threecornerround.org">info@threecornerround.org</a></li>
+                    </ul>
+<!--                    <h4 class="snippet__heading snippet__heading-2">For Technical Support, Please Contact</h4>-->
+<!--                    <ul class="list">-->
+<!--                        <li class="list__item list__item-phone">-->
+<!--                            <a href="tel:5554280940">833-222-3359</a>-->
+<!--                        </li>-->
+<!--                        <li class="list__item list__item-email"><a href="mailto:sales@digitalacademy.org">support@digitalacademy.org</a></li>-->
+<!--                    </ul>-->
+                </figure>
+
+                <figure class="snippet" id="donate">
+<!--                    <div class="cta">-->
+<!--                        <a href="https://www.paypal.com/cgi-bin/webscr" class="reset-link">-->
+<!--                            <button class="btn-cta">-->
+<!--                                <span class="btn-cta__visible">Donate Now</span>-->
+
+<!--                            </button>-->
+<!--                        </a>-->
+<!--                    </div>-->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="27KG4JY874ZEJ" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+                </figure>
+<!--                <figure class="snippet btn-cta2">-->
+<!--                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
+<!--                        <input type="hidden" name="cmd" value="_s-xclick" />-->
+<!--                        <input type="hidden" name="hosted_button_id" value="27KG4JY874ZEJ" />-->
+<!--                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />-->
+<!--                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />-->
+<!--                    </form>-->
+<!--                </figure>-->
+
+            </div>
+        </div>
+    </div>
+</section>
+
 <footer class="footer">
     <div class="row">
     <div class="footer-text">
@@ -210,6 +298,7 @@
 </div>
 
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
 
 </body>
 </html>
